@@ -7,7 +7,7 @@ class Navbar extends Component {
         return(
             <div className="navbar">
                 <div className='top-navbar'>
-                    <h2>R.S.P Collage Of Management, Chalisgaon</h2>
+                    <h2>R.S.P Collage Of Management, Jalgaon</h2>
                 </div>
 
                 <div className='bottom-navbar'>
