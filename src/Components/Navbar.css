@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*  {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 6rem;
+}
+
+.top-navbar {
+    background-color: rgb(21, 141, 21);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.bottom-navbar {
+    background-color: rgba(138, 137, 137, 0.226);
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgb(0, 0, 0) 0px 1px 3px -1px;
+}
+
+#rf-heading {
+    opacity: 70%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+
+.tab-container {
+    /* background-color: rgba(128, 128, 128, 0.425); */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items:flex-end;
+    padding: 0px 1rem;
+}
+
+.tab {
+    height: 70%;
+    width: 10rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    border-top: 4px solid transparent;
+    margin-right: 3px;
+}
+
+.tab:hover {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 4px solid rgb(255, 4, 4);
+    border-left : 1px solid red;
+    border-right : 1px solid red;
+    background-color: #FFFFFF;
+}
+
+.tab:active {
+    background-color: #ffffff;
+    border-left : 1px solid red;
+    border-right : 1px solid red;
+}
+
+#form {
+    border-radius: 20px 20px 0px 0px;
+    border-top: 4px solid rgb(255, 4, 4);
+    /* box-shadow: 0px 0px 4px; */
+    border-left : 1px solid red;
+    border-right : 1px solid red;
+}
